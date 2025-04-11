@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://Thomas-Hospital-e-V/Thomas-Hospital-e-V.github.io/sitemap.xml
