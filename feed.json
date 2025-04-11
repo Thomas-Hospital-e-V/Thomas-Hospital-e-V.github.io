@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Thomas Hospital e.V.",
     "description": "",
-    "home_page_url": "https://Thomas-Hospital-e-V/Thomas-Hospital-e-V.github.io",
-    "feed_url": "https://Thomas-Hospital-e-V/Thomas-Hospital-e-V.github.io/feed.json",
+    "home_page_url": "https://thomas-hospital-e-v.github.io",
+    "feed_url": "https://thomas-hospital-e-v.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Vincent Meilinger"
