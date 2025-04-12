@@ -1,0 +1,30 @@
+editable:
+  - ""
+uploads:
+  - dir: assets
+    url: ""
+template_field: layout
+template_default: page
+templates:
+  page:
+    fields:
+      title:
+        attrs:
+          maxlength: 70
+      published:
+        type: boolean
+  post:
+    fields:
+      title:
+        attrs:
+          maxlength: 70
+      date:
+        type: datetime
+      published:
+        type: boolean
+      categories:
+        type: list[text]
+      tags:
+        type: list[text]
+
+

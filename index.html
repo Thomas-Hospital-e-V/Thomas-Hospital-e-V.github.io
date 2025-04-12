@@ -1,9 +1,9 @@
 ---
-title: "Mundana Free Jekyll Theme"
+title: "HOME"
 layout: default
 pagination:
     enabled: true
-description: "A great Jekyll theme developed by Sal @wowthemesnet."
+description: "Homepage des Thomas Hospital e.V."
 ---
 
 
@@ -11,7 +11,36 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     
 {% if page.url == "/" %}
     
-    
+
+<!-- Hero Image 
+<div style="background-size:cover;background-image:url({{site.baseurl}}/assets/images/berufsschule-5.JPG);">	
+-->
+<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
+    <div class="hero-text" style="text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;">
+        <h1>Kinderhilfe & Thomas Hospital</h1>
+        <p>Kamerun</p>
+    </div>
+</div> 
+
+
+<!-- About Section -->
+{% assign about_page = site.pages | where: "permalink", "/home/about.html" | first %}
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-white position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">{{about_page.title}}</h1>
+                <p class="mb-3 lead">
+                    {{ about_page.content | markdownify }}
+                </p>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Mehr über uns</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ about_page.image }});">	
+            </div>
+        </div>
+    </div>
+</div> 
+
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
@@ -132,7 +161,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     </div>
     
 </div>
-    
+
+
+
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 
 {% if post.tags contains "sticky" %}
@@ -208,9 +239,11 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
         
     </div>
     
+    <!--
     <div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
+    -->
     
 </div>
 
