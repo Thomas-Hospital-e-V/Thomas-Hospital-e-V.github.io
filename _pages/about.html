@@ -6,14 +6,27 @@ image: "/assets/images/IMG_6144.jpg"
 more_button: false
 ---
 
-{% assign pages = site.pages | where_exp:"item", "item.path contains '_pages/about'" %}
+
 
 <div class="container">
 
-    {% for page in pages %}
-        
-        {% include image-text-section.html %}
-    
-    {% endfor %}
+    <!-- Hero Image -->
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
+        <div class="hero-text" style="text-align: left;position: absolute;top: 50%;left: 50%;transform: translate(-80%, -50%);color: white;">
+            <h1>Über uns</h1>
+        </div>
+    </div> 
 
+    <!-- Section 1 -->
+    {% assign about_page = site.pages | where: "permalink", "/about/wer-sind-wir.html" | first %}
+    {% include image-text-section.html %}
+
+    <!-- Section 2 -->
+    {% assign about_page = site.pages | where: "permalink", "/about/lokal-unterstuetzen.html" | first %}
+    {% include image-text-section.html %}
+
+    <!-- Mitarbeiter -->
+    {% assign employee_page = site.pages | where: "permalink", "/about/mitarbeiter.html" | first %}
+    <h1>Unsere Helfer</h1>
+    {{ employee_page.content | markdownify }}
 </div>

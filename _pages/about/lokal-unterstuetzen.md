@@ -1,13 +1,10 @@
 ---
-title: "Wer sind wir?"
+title: "Lokal fördern und unterstützen"
 layout: default
-permalink: "/wer-sind-wir.html"
-image: "/assets/images/IMG_6144.jpg"
-more_button: false
+permalink: "/about/lokal-unterstuetzen.html"
+image: assets/images/IMG_3622.jpg
+image_pos: "leading"
 ---
-
-
-Lokal fördern und unterstützen
 
 Wir freuen uns, dass wir vor Ort ausschließlich einheimische Mitarbeiter beschäftigen. Immer sind jedoch auch Fachkräfte aus dem Ausland willkommen, die praktische Hilfe in Kamerun einbringen wollen.
 

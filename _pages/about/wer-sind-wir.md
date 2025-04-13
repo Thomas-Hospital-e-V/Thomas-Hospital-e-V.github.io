@@ -1,16 +1,12 @@
 ---
 title: "Wer sind wir?"
 layout: default
-permalink: "/wer-sind-wir.html"
-image: "/assets/images/IMG_6144.jpg"
-more_button: false
+permalink: "/about/wer-sind-wir.html"
+image: assets/images/IMG_6144.jpg
+image_pos: "trailing"
 ---
 
-## Wer wir sind
-
-### Kinderhilfe & St. Thomas Hospital in Kamerun
-
-#### Der Verein
+### Der Verein Kinderhilfe & St. Thomas Hospital in Kamerun
 
 Der Förderverein Kinderhilfe und St. Thomas-Hospital in Kamerun e.V. wurde im Jahr 2000 gegründet. Er unterstützt Bildung und Erziehung sowie die Versorgung kranker und hilfsbedürftiger Menschen in Kamerun.
 
