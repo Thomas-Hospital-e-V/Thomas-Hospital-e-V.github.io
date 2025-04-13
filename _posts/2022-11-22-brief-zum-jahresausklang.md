@@ -3,7 +3,7 @@ layout: post
 title:  "Brief von Bischof Phillipe zum Jahresausklang 2022"
 categories: [ Kinderhilfe ]
 image: assets/images/logo.jpg
-author: philippe
+author: philippe-mbarga
 ---
 
 B.P: 910 Ebolowa - Cameroon L'EVEQUE

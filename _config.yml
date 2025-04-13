@@ -19,20 +19,55 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    marion:
+    marion-fuhrmann:
       name:           Dr. med. Marion Fuhrmann
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-marion-fuhrmann.jpg
       bio:            "Vorsitzende, Dokumentation und Reisekoordination, Medizinscher Support."
       email:          kontakt@thomas-hospital.de
 
-    philippe:
-      name:           Philippe Alain Mbarga
+    philippe-mbarga:
+      name:           Msgr. Dr. Philippe Alain Mbarga
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-philippe-mbarga.jpg
-      bio:            "Bischof von Ebolowa"
+      bio:            "Bischof von Ebolowa, Projektleiter in Kamerun"
       email:          mbarga@web.de
- 
+
+    josephina-schaefer:
+      name:           Josephina Schäfer
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-default-female.png
+      bio:            ""
+      email:          kontakt@thomas-hospital.de
+
+    petra-leinweber:
+      name:           Petra Leinweber
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-petra-leinweber.jpg
+      bio:            "Vorsitzende, Einrichtung und Beratung Berufsschulzentrum / Hospital und aller weiteren Projekte, Transport und Logistik, Dokumentation und Reisekoordination"
+      email:          kontakt@thomas-hospital.de
+
+    leslie-scheuber:
+      name:           Leslie Scheuber
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-leslie-scheuber.jpg
+      bio:            "Website-Einrichtung und Betreuung"
+      email:          kontakt@thomas-hospital.de
+
+    sylvia-usbeck:
+      name:           Sylvia Usbeck
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-sylvia usbeck.jpg
+      bio:            "Website-Einrichtung und Betreuung"
+      email:          kontakt@thomas-hospital.de
+
+    david-usbeck:
+      name:           David Usbeck
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-default-male.png
+      bio:            "Website-Einrichtung und Betreuung, Englisch-Übersetzung"
+      email:          kontakt@thomas-hospital.de
+
 # Defaults
 defaults:
 
@@ -41,8 +76,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: marion-fuhrmann
+      avatar: /assets/images/avatar-default-male.jpg
       
   # all pages
   - scope:

@@ -3,7 +3,7 @@ layout: post
 title:  "Brief von Bischof Phillipe zum Jahresausklang"
 categories: [ Kinderhilfe ]
 image: assets/images/2021-11-26-10_07_31-Brief-Bischof-Philippe---Unterschrift.png
-author: philippe
+author: philippe-mbarga
 ---
 
 Pot. N°164/2021/A

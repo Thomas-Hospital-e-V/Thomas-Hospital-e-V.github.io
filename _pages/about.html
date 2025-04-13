@@ -1,0 +1,19 @@
+---
+title: "Wer sind wir?"
+layout: default
+permalink: "/about.html"
+image: "/assets/images/IMG_6144.jpg"
+more_button: false
+---
+
+{% assign pages = site.pages | where_exp:"item", "item.path contains '_pages/about'" %}
+
+<div class="container">
+
+    {% for page in pages %}
+        
+        {% include image-text-section.html %}
+    
+    {% endfor %}
+
+</div>

@@ -3,7 +3,7 @@ layout: post
 title:  "Kinderhilfe Bericht 2021"
 categories: [ Kinderhilfe ]
 image: assets/images/waisenhaus-5.JPG
-author: marion
+author: marion-fuhrmann
 ---
 
 Sehr geehrte, liebe Vereinsmitglieder, liebe Freundinnen und Freunde!

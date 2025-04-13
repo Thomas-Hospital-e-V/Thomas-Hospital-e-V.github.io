@@ -3,7 +3,7 @@ layout: post
 title:  "Aufenthalt von Frau Dr. Fuhrmann in Kamerun Dezember 2021 / Januar 2022 "
 categories: [ Kinderhilfe ]
 image: assets/images/krankenstation-9.JPG
-author: marion
+author: marion-fuhrmann
 ---
 
 Kinderhilfe & St. Thomas-Hospital in Kamerun e.V.

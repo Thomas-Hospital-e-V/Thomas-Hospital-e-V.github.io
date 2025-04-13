@@ -2,7 +2,7 @@
 title: "KAMERUN"
 layout: page-sidebar
 permalink: "/home/kamerun.html"
-image: "/assets/images/2.jpg"
+image: assets/images/volksschule-5.jpg
 comments: true
 order: 2
 ---
