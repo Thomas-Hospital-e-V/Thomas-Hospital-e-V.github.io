@@ -1,11 +1,11 @@
 # Site
-name: 'Thomas Hospital'
-description: 'Thomas Hospital & Kinderhilfe.'
+name: 'St. Thomas Hospital'
+description: 'St. Thomas Hospital & Kinderhilfe.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/'
 disqus: 'demowebsite'
-email: 'kontakt@thomas-hospital.de'
+email: 'info@praxis-frauenberg.de'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -24,7 +24,7 @@ authors:
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-marion-fuhrmann.jpg
       bio:            "Vorsitzende, Dokumentation und Reisekoordination, Medizinscher Support."
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
     philippe-mbarga:
       name:           Msgr. Dr. Philippe Alain Mbarga
@@ -38,35 +38,35 @@ authors:
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-default-female.png
       bio:            ""
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
     petra-leinweber:
       name:           Petra Leinweber
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-petra-leinweber.jpg
       bio:            "Vorsitzende, Einrichtung und Beratung Berufsschulzentrum / Hospital und aller weiteren Projekte, Transport und Logistik, Dokumentation und Reisekoordination"
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
     leslie-scheuber:
       name:           Leslie Scheuber
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-leslie-scheuber.jpg
       bio:            "Website-Einrichtung und Betreuung"
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
     sylvia-usbeck:
       name:           Sylvia Usbeck
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-sylvia usbeck.jpg
       bio:            "Website-Einrichtung und Betreuung"
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
     david-usbeck:
       name:           David Usbeck
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-default-male.png
       bio:            "Website-Einrichtung und Betreuung, Englisch-Übersetzung"
-      email:          kontakt@thomas-hospital.de
+      email:          info@praxis-frauenberg.de 
 
 # Defaults
 defaults:

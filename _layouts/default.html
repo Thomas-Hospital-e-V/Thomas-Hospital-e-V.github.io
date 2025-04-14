@@ -65,29 +65,42 @@
 
 
     <!-- Scripts: popper, bootstrap, theme, lunr -->
+    
+        <!-- jQuery (required for Bootstrap 4) -->
+    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
-
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
         <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div>
-                <span class="navbar-brand mr-2 mb-0"><strong>St. Thomas Hospital</strong></span>
+            <div class="row align-items-center justify-content-between">
+                <!-- Branding & Contact -->
+                <div>
+                    <span class="navbar-brand mr-2 mb-0"><strong>Thomas Hospital e.V.</strong></span><br>
 
-                
-                
-            </div>
-            <div>
+                    <span class="d-block mt-1">
+                        <a href="https://www.google.com/maps?q=+Rosenweg+9,+Neuhof-Hauswurz,+36119" 
+                           target="_blank" 
+                           class="text-muted">
+                           Rosenweg 9, 36119 Neuhof-Hauswurz
+                        </a>
+                    </span>
+
+                    <span class="d-block">Telefon: <a href="tel:0661 77372" class="text-muted">(0661) 77372</a></span>
+                    <span class="d-block">Email: <a href="mailto:{{site.email}}" class="text-muted">{{site.email}}</a></span>
+                </div>
+    
                 <!-- Datenschutz & Impressum -->
-                <a class="text-dark ml-1" target="_blank" href="{{site.baseurl}}/datenschutz">Datenschutz</a> | 
-                <a class="text-dark ml-1" target="_blank" href="{{site.baseurl}}/datenschutz">Impressum</a>
+                <div class="text-right">
+                    <a class="text-muted ml-1" href="{{site.baseurl}}/privacy-policy.html">Datenschutz</a> | 
+                    <a class="text-muted ml-1" href="{{site.baseurl}}/imprint.html">Impressum</a>
+                </div>
             </div>
-        </div>
         </div>
     </footer>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Aufenthalt von Frau Dr. Fuhrmann in Kamerun Dezember 2021 / Januar 2022 "
 categories: [ Kinderhilfe ]
-image: assets/images/krankenstation-9.JPG
+image: assets/images/krankenstation-0.JPG
 author: marion-fuhrmann
 ---
 

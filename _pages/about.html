@@ -12,7 +12,7 @@ more_button: false
 
     <!-- Hero Image -->
     <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
-        <div class="hero-text" style="text-align: left;position: absolute;top: 50%;left: 50%;transform: translate(-80%, -50%);color: white;">
+        <div class="hero-text" style="text-align: left;position: relative;top: 50%;transform: translate(0%, -50%);color: white; padding-left: 5%;">
             <h1>Über uns</h1>
         </div>
     </div> 
@@ -25,8 +25,25 @@ more_button: false
     {% assign about_page = site.pages | where: "permalink", "/about/lokal-unterstuetzen.html" | first %}
     {% include image-text-section.html %}
 
-    <!-- Mitarbeiter -->
+    <div style="padding: 20px"></div>
+
+    <!-- Mitarbeiter 
     {% assign employee_page = site.pages | where: "permalink", "/about/mitarbeiter.html" | first %}
-    <h1>Unsere Helfer</h1>
+    
     {{ employee_page.content | markdownify }}
+    -->
+
+    <h1>Unsere Helfer</h1>
+    {% assign employee_pages = site.pages | where_exp:"item", "item.path contains '_pages/employees'" | sort: "title" %}
+
+    {% for employee_page in employee_pages %}
+        {% include employee-card.html %}
+    {% endfor %}
+
+    <div style="padding: 20px"></div>
+
+
+    <!-- Section Kamerun -->
+    {% assign about_page = site.pages | where: "permalink", "/about/kamerun.html" | first %}
+    {{ about_page.content | markdownify }}
 </div>
