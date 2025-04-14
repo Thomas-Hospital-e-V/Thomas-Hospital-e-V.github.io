@@ -1,4 +1,4 @@
-# Thomas Hospital e.V. Webpage
+# St. Thomas Hospital e.V. Webpage
 
 ### Development Website
 
