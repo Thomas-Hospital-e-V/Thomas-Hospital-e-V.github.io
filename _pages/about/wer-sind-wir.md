@@ -1,5 +1,5 @@
 ---
-title: "Wer sind wir?"
+title: "Wer wir sind"
 layout: default
 permalink: "/about/wer-sind-wir.html"
 image: assets/images/IMG_6144.jpg

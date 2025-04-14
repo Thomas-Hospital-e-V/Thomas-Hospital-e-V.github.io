@@ -10,3 +10,10 @@ The development page can be found [here](https://thomas-hospital-e-v.github.io/)
 bundle install
 bundle exec jekyll serve --baseurl=""
 ```
+
+
+### TODO
+
+- [ ] Spendenform
+- [ ] Newsletter entfernen
+- [ ] Englische Übersetzung
