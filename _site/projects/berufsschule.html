@@ -347,36 +347,36 @@ function lunr_search(term) {
 
     <!-- Hero Carousel -->
     
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="1" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="2" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="3" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="4" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="4" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="5" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="5" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="6" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="6" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="7" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="7" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="8" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="8" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="9" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="9" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="10" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="10" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="11" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="11" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="12" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="12" ></li>
     
-      <li data-target="#carouselExampleIndicators" data-slide-to="13" ></li>
+      <li data-target="#carouselIndicators" data-slide-to="13" ></li>
     
   </ol>
   <div class="carousel-inner">
@@ -466,15 +466,16 @@ function lunr_search(term) {
       </div>
     
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev" onclick="$('#carouselIndicators').carousel('prev')">
     <span class="carousel-control-prev-icon"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next" onclick="$('#carouselIndicators').carousel('next')">
     <span class="carousel-control-next-icon"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 
     
 
@@ -616,7 +617,6 @@ function lunr_search(term) {
     <!-- Scripts: popper, bootstrap, theme, lunr -->
     
         <!-- jQuery (required for Bootstrap 4) -->
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
@@ -656,6 +656,7 @@ function lunr_search(term) {
     <!-- All this area goes before </body> closing tag --> 
 
 
+    
 </body>
 
 </html>

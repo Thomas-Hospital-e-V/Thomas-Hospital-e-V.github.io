@@ -15,5 +15,4 @@ bundle exec jekyll serve --baseurl=""
 ### TODO
 
 - [ ] Spendenform
-- [ ] Newsletter entfernen
 - [ ] Englische Übersetzung
