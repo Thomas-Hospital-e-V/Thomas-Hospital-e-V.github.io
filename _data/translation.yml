@@ -1,0 +1,81 @@
+languages:
+  en: 
+    title: English
+    link: /en
+  de: 
+    title: Deutsch
+    link: /de
+
+
+# HEADER MENU / NAVIGATION BAR
+
+header-menu-home:
+  en: HOME
+  de: HOME
+
+header-menu-about:
+  en: ABOUT
+  de: ÜBER UNS
+
+header-menu-projects:
+  en: PROJECTS
+  de: PROJEKTE
+
+header-menu-news:
+  en: NEWS
+  de: AKTUELLES
+
+header-menu-contact:
+  en: CONTACT
+  de: KONTAKT
+
+
+# HOME
+
+org-title:
+  en: Children's aid & St. Thomas Hospital
+  de: Kinderhilfe & St. Thomas Hospital
+
+cameroon: 
+  en: Cameroon
+  de: Kamerun
+
+button-more-about-us:
+  en: More about us
+  de: Mehr über uns
+
+# NEWS
+
+headline-news:
+  en: Latest News
+  de: Aktuelles aus unserem Verein
+
+headline-all-posts:
+  en: All Posts
+  de: Alle Posts
+
+
+# PROJECTS
+
+headline-projects:
+  en: Our Projects
+  de: Unsere sozialen Projekte
+
+headline-all-projects:
+  en: All Projects
+  de: Alle Projekte
+
+button-read-more:
+  en: Read more
+  de: Mehr erfahren
+
+
+# ABOUT
+
+headline-about:
+  en: About
+  de: Über uns
+
+employees:
+  en: Our Employees
+  de: Unsere Helfer

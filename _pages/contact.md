@@ -5,7 +5,7 @@ permalink: "/contact.html"
 
 📞 **Telefon:** (0661) 77372  
 📠 **Telefax:** (0661) 9013441  
-✉️ **E-Mail:** [kamerun@praxis-frauenberg.de](mailto:kamerun@praxis-frauenberg.de)
+✉️ **E-Mail:** [info@praxis-frauenberg.de](mailto:info@praxis-frauenberg.de)
 
 
 #### Addresse 

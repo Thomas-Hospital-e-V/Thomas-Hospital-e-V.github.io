@@ -1,0 +1,16 @@
+<div class="container">
+
+    <!-- Hero Image -->
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
+        <div class="hero-text" style="text-align: left;position: relative;top: 50%;transform: translate(0%, -50%);color: white; padding-left: 5%;">
+            <h1>{{ site.data.translation.headline-projects[page.lang] }}</h1>
+        </div>
+    </div> 
+
+    {% assign lang_filter = "/" | append: page.lang | append: "/" %}
+    {% assign project_pages = site.pages | where_exp:"item", "item.path contains '_pages/projects/' and item.path contains lang_filter" | sort: "title" %}
+
+    {% for project_page in project_pages %}
+        {% include project-card.html %}
+    {% endfor %}
+</div>
