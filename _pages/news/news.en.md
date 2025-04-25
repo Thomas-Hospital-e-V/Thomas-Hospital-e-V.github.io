@@ -3,8 +3,7 @@ title: "News"
 lang: en
 layout: default
 permalink: "/en/news.html"
-pagination:
-    enabled: true
+image: /assets/images/IMG_5938.jpg
 ---
 
 {% include news.html %}

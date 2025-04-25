@@ -3,7 +3,7 @@
 <!-- Hero Image 
 <div style="background-size:cover;background-image:url({{site.baseurl}}/assets/images/berufsschule-5.JPG);">	
 -->
-<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
+<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}{{page.image}});height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
     <div class="hero-text" style="text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;">
         <h1>{{ site.data.translation.org-title[page.lang] }}</h1>
         <p>{{ site.data.translation.cameroon[page.lang] }}</p>
@@ -13,25 +13,10 @@
 
 <!-- About Section -->
 {% assign about_permalink = "/" | append: page.lang | append: "/home/about.html" %}
-{% assign about_page = site.pages | where: "permalink", about_permalink | first %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{about_page.title}}</h1>
-                <p class="mb-3 lead">
-                    {{ about_page.content | markdownify }}
-                </p>
-                <a href="{{site.baseurl}}/{{page.lang}}/about.html" class="btn btn-dark">{{ site.data.translation.button-more-about-us[page.lang] }}</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ about_page.image }});">	
-            </div>
-        </div>
-    </div>
-</div> 
+{% assign section = site.pages | where: "permalink", about_permalink | first %}
+{% include page-section.html %}
 
 <br>
-    
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 {% assign lang_posts = site.posts | where: "lang", page.lang %}
 <div class="row remove-site-content-margin">
@@ -67,7 +52,7 @@
     <div class="mt-auto pt-3">
         <a href="{{site.baseurl}}/{{page.lang}}/news.html" class="btn btn-dark">{{ site.data.translation.button-more-news[page.lang] }}</a>
     </div>  
-    
+
     </div>
     </div>
     </div>
@@ -162,26 +147,14 @@
 <br>
 
 <!-- Kamerun Section -->
-{% assign kamerun_permalink = "/" | append: page.lang | append: "/home/cameroon.html" %}
-{% assign kamerun_page = site.pages | where: "permalink", kamerun_permalink | first %}
+{% assign section_permalink = "/" | append: page.lang | append: "/home/cameroon.html" %}
+{% assign section = site.pages | where: "permalink", section_permalink | first %}
+{% include page-section.html %}
 
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{ kamerun_page.title }}</h1>
-                <p class="mb-3 lead">
-                    {{ kamerun_page.content | markdownify }}
-                </p>
-                <a href="{{site.baseurl}}/about.html" class="btn btn-dark">{{ site.data.translation.button-more-about-us[page.lang] }}</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ kamerun_page.image }});">	
-            </div>
-        </div>
-    </div>
-</div> 
-
-<br>
+<!-- Donation Section -->
+{% assign donation_permalink = "/" | append: page.lang | append: "/home/donations.html" %}
+{% assign section = site.pages | where: "permalink", donation_permalink | first %}
+{% include page-section.html %}
 
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 

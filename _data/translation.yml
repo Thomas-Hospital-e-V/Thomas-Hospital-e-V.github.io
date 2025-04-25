@@ -48,6 +48,14 @@ button-more-news:
   en: More news
   de: Weitere Neuigkeiten
 
+headline-donations:
+  en: Donations
+  de: Spenden
+
+button-donate:
+  en: Donate
+  de: Spenden
+
 # NEWS
 
 headline-news:
@@ -77,7 +85,7 @@ button-read-more:
 # ABOUT
 
 headline-about:
-  en: About
+  en: About Us
   de: Über uns
 
 employees:

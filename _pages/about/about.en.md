@@ -1,5 +1,5 @@
 ---
-title: "Wer sind wir?"
+title: "Who we are"
 lang: en
 layout: default
 permalink: "/en/about.html"

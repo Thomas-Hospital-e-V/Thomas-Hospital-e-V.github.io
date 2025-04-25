@@ -1,21 +1,21 @@
 <div class="container">
 
     <!-- Hero Image -->
-    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}/assets/images/berufsschule-5.JPG);height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url({{site.baseurl}}{{page.image}});height: 50vh;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
         <div class="hero-text" style="text-align: left;position: relative;top: 50%;transform: translate(0%, -50%);color: white; padding-left: 5%;">
-            <h1>{{ site.data.translation.headline-about[page.lang] }}</h1>
+            <h1 class="font-weight-bold">{{ site.data.translation.headline-about[page.lang] }}</h1>
         </div>
     </div> 
 
     <!-- Section 1 -->
     {% assign about_permalink = "/" | append: page.lang | append: "/about/section-1.html" %}
-    {% assign about_page = site.pages | where: "permalink", about_permalink | first %}
-    {% include image-text-section.html %}
+    {% assign section = site.pages | where: "permalink", about_permalink | first %}
+    {% include page-section.html %}
 
     <!-- Section 2 -->
     {% assign about_permalink = "/" | append: page.lang | append: "/about/section-2.html" %}
-    {% assign about_page = site.pages | where: "permalink", about_permalink | first %}
-    {% include image-text-section.html %}
+    {% assign section = site.pages | where: "permalink", about_permalink | first %}
+    {% include page-section.html %}
 
     <div style="padding: 20px"></div>
 

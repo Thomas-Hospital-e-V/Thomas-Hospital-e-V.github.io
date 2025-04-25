@@ -4,6 +4,8 @@ lang: en
 layout: page-sidebar
 permalink: "/en/home/about.html"
 image: "assets/images/waisenhaus-4.JPG"
+button-text: More about us
+button-link: about.html
 ---
 
 ### Children’s Aid & St. Thomas Hospital in Cameroon

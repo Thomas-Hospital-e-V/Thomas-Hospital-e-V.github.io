@@ -1,9 +1,11 @@
 ---
-title: "About"
+title: "Über uns"
 lang: de
 layout: page-sidebar
 permalink: "/de/home/about.html"
 image: "assets/images/waisenhaus-4.JPG"
+button-text: Mehr über uns
+button-link: about.html
 ---
 
 ### Kinderhilfe & St. Thomas Hospital in Kamerun
