@@ -1,0 +1,134 @@
+languages:
+  en: 
+    title: English
+    link: /en
+  de: 
+    title: Deutsch
+    link: /de
+
+
+# HEADER MENU / NAVIGATION BAR
+
+header-menu-home:
+  en: HOME
+  de: HOME
+
+header-menu-about:
+  en: ABOUT
+  de: ÜBER UNS
+
+header-menu-projects:
+  en: PROJECTS
+  de: PROJEKTE
+
+header-menu-news:
+  en: NEWS
+  de: AKTUELLES
+
+header-menu-contact:
+  en: CONTACT
+  de: KONTAKT
+
+
+# HOME
+
+org-title:
+  en: Children's aid & St. Thomas Hospital
+  de: Kinderhilfe & St. Thomas Hospital
+
+cameroon: 
+  en: Cameroon
+  de: Kamerun
+
+button-more-about-us:
+  en: More about us
+  de: Mehr über uns
+
+button-more-news:
+  en: More news
+  de: Weitere Neuigkeiten
+
+headline-donations:
+  en: Donations
+  de: Spenden
+
+button-donate:
+  en: Donate
+  de: Spenden
+
+# NEWS
+
+headline-news:
+  en: Latest News
+  de: Aktuelles aus unserem Verein
+
+headline-all-posts:
+  en: All Posts
+  de: Alle Posts
+
+
+# PROJECTS
+
+headline-projects:
+  en: Our Projects
+  de: Unsere sozialen Projekte
+
+headline-all-projects:
+  en: All Projects
+  de: Alle Projekte
+
+button-read-more:
+  en: Read more
+  de: Mehr erfahren
+
+
+# ABOUT
+
+headline-about:
+  en: About Us
+  de: Über uns
+
+employees:
+  en: Our Employees
+  de: Unsere Helfer
+
+
+# PRIVACY POLICY & IMPRINT
+
+privacy-policy:
+  en: Privacy Policy
+  de: Datenschutz
+
+imprint:
+  en: Imprint
+  de: Impressum
+
+phone: 
+  en: Phone
+  de: Telefon
+
+mail: 
+  en: E-Mail
+  de: E-Mail
+
+
+# CATEGORIES
+
+headline-categories:
+  en: Categories
+  de: Kategorien
+
+
+# POSTS
+
+share-article:
+  en: Share article
+  de: Artikel teilen
+
+written-by:
+  en: Written by
+  de: Verfasst von
+
+min-read-time:
+  en: min. read time
+  de: Min. Lesezeit

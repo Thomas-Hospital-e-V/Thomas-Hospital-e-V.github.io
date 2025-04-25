@@ -6,7 +6,7 @@
                 <p class="mb-3 lead">
                     {{ project_page.summary }}
                 </p>
-                <a href="{{site.baseurl}}{{project_page.url}}" class="btn btn-dark">Mehr erfahren</a>
+                <a href="{{site.baseurl}}{{project_page.url}}" class="btn btn-dark">{{ site.data.translation.button-read-more[page.lang] }}</a>
             </div>
             <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ project_page.images[0] }});">	
             </div>
