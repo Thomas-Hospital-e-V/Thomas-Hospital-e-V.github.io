@@ -2,7 +2,7 @@
 title: "News"
 lang: en
 layout: default
-permalink: "/en/aktuelles.html"
+permalink: "/en/news.html"
 pagination:
     enabled: true
 ---

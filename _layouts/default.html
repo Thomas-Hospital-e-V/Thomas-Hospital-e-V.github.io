@@ -46,9 +46,11 @@
             <ul class="navbar-nav mr-auto d-flex align-items-center">
                {% include menu-header.html %}
             </ul>
+            <!-- REMOVE TO ENABLE SEARCH BAR
             <ul class="navbar-nav ml-auto d-flex align-items-center">
                 {% include search-lunr.html %}
             </ul>
+            -->
         </div>
     </div>
     </nav>
@@ -80,7 +82,7 @@
             <div class="row align-items-center justify-content-between">
                 <!-- Branding & Contact -->
                 <div>
-                    <span class="navbar-brand mr-2 mb-0"><strong>Thomas Hospital e.V.</strong></span><br>
+                    <span class="navbar-brand mr-2 mb-0"><strong>St. Thomas Hospital e.V.</strong></span><br>
 
                     <span class="d-block mt-1">
                         <a href="https://www.google.com/maps?q=+Rosenweg+9,+Neuhof-Hauswurz,+36119" 
@@ -90,14 +92,14 @@
                         </a>
                     </span>
 
-                    <span class="d-block">Telefon: <a href="tel:0661 77372" class="text-muted">(0661) 77372</a></span>
-                    <span class="d-block">Email: <a href="mailto:{{site.email}}" class="text-muted">{{site.email}}</a></span>
+                    <span class="d-block">{{ site.data.translation.phone[page.lang] }}: <a href="tel:0661 77372" class="text-muted">(0661) 77372</a></span>
+                    <span class="d-block">{{ site.data.translation.mail[page.lang] }}: <a href="mailto:{{site.email}}" class="text-muted">{{site.email}}</a></span>
                 </div>
     
                 <!-- Datenschutz & Impressum -->
                 <div class="text-right">
-                    <a class="text-muted ml-1" href="{{site.baseurl}}/privacy-policy.html">Datenschutz</a> | 
-                    <a class="text-muted ml-1" href="{{site.baseurl}}/imprint.html">Impressum</a>
+                    <a class="text-muted ml-1" href="{{ site.baseurl }}/{{ page.lang }}/privacy-policy.html">{{ site.data.translation.privacy-policy[page.lang] }}</a> | 
+                    <a class="text-muted ml-1" href="{{ site.baseurl }}/{{ page.lang }}/imprint.html">{{ site.data.translation.imprint[page.lang] }}</a>
                 </div>
             </div>
         </div>

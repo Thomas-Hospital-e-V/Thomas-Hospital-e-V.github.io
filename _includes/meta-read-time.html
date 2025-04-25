@@ -1,9 +1,9 @@
 <span class="reading-time">
   {% assign words = content | number_of_words %}
   {% if words < 360 %}
-    1 Min. Lesezeit
+    1 {{ site.data.translation.min-read-time[page.lang] }} 
   {% else %}
-    {{ words | divided_by:180 }} Min. Lesezeit
+    {{ words | divided_by:180 }} {{ site.data.translation.min-read-time[page.lang] }} 
   {% endif %}
 </span>
     

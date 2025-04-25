@@ -22,7 +22,7 @@
                 <p class="mb-3 lead">
                     {{ about_page.content | markdownify }}
                 </p>
-                <a href="{{site.baseurl}}/about.html" class="btn btn-dark">{{ site.data.translation.button-more-about-us[page.lang] }}</a>
+                <a href="{{site.baseurl}}/{{page.lang}}/about.html" class="btn btn-dark">{{ site.data.translation.button-more-about-us[page.lang] }}</a>
             </div>
             <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ about_page.image }});">	
             </div>
@@ -33,10 +33,12 @@
 <br>
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+{% assign lang_posts = site.posts | where: "lang", page.lang %}
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[0] %}
+
+    {% assign latest_post = lang_posts[0] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
@@ -61,6 +63,11 @@
             {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
     </div>
+
+    <div class="mt-auto pt-3">
+        <a href="{{site.baseurl}}/{{page.lang}}/news.html" class="btn btn-dark">{{ site.data.translation.button-more-news[page.lang] }}</a>
+    </div>  
+    
     </div>
     </div>
     </div>
@@ -68,7 +75,7 @@
     <div class="col-md-6">
         
         <!-- second latest post -->
-        {%- assign second_post = site.posts[1] -%}        
+        {%- assign second_post = lang_posts[1] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -95,7 +102,7 @@
             </div>
         
         <!-- third latest post -->
-        {%- assign third_post = site.posts[2] -%}        
+        {%- assign third_post = lang_posts[2] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
@@ -122,7 +129,7 @@
             </div>
         
         <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[3] -%}        
+        {%- assign fourth_post = lang_posts[3] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
@@ -162,7 +169,7 @@
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{kamerun_page.title}}</h1>
+                <h1 class="mb-3">{{ kamerun_page.title }}</h1>
                 <p class="mb-3 lead">
                     {{ kamerun_page.content | markdownify }}
                 </p>
@@ -196,63 +203,5 @@
 </div> 
 {% endif %}
 {% endfor %}
-    
-
-
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
-    
-<div class="row mt-3">
-   
-    <div class="col-12 mx-auto main-loop">
-        
-        <h4 class="font-weight-bold spanborder"><span>Alle Posts</span></h4>
-        
-
-        {% for post in paginator.posts %}
-        
-            {% include main-loop-card.html %}
-        
-        {% endfor %}
-        
-        <div class="mt-5">
-         <!-- Pagination links -->
-            {% if paginator.total_pages > 1 %}
-            <ul class="pagination"> 
-              {% if paginator.previous_page %}
-                <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-              {% else %}
-                <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
-              {% endif %}
-
-              {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
-                {% elsif page == 1 %}
-                <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
-                {% else %}
-                <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-                {% endif %}
-              {% endfor %}
-
-              {% if paginator.next_page %}
-                <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-              {% else %}
-                <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
-              {% endif %}
-            </ul>
-            {% endif %}      
-        </div>
-        
-    </div>
-    
-    <!--
-    <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-    </div>
-    -->
-    
-</div>
-
-
 
 </div>

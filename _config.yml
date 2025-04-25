@@ -78,14 +78,16 @@ defaults:
       layout: post
       lang: de
       author: marion-fuhrmann
-      avatar: /assets/images/avatar-default-male.jpg
+      avatar: /assets/images/avatar-default-female.jpg
+      permalink: /de/:title/
   - scope:
       path: "_posts/en"
     values:
       layout: post
       lang: en
       author: marion-fuhrmann
-      avatar: /assets/images/avatar-default-male.jpg
+      avatar: /assets/images/avatar-default-female.jpg
+      permalink: /en/:title/
       
   # all pages
   - scope:

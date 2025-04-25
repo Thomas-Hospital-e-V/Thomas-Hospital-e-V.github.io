@@ -2,7 +2,7 @@
 title: "Aktuelles"
 lang: de
 layout: default
-permalink: "/de/aktuelles.html"
+permalink: "/de/news.html"
 pagination:
     enabled: true
 ---

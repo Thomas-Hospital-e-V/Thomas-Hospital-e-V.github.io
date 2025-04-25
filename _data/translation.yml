@@ -44,6 +44,10 @@ button-more-about-us:
   en: More about us
   de: Mehr über uns
 
+button-more-news:
+  en: More news
+  de: Weitere Neuigkeiten
+
 # NEWS
 
 headline-news:
@@ -79,3 +83,44 @@ headline-about:
 employees:
   en: Our Employees
   de: Unsere Helfer
+
+
+# PRIVACY POLICY & IMPRINT
+
+privacy-policy:
+  en: Privacy Policy
+  de: Datenschutz
+
+imprint:
+  en: Imprint
+  de: Impressum
+
+phone: 
+  en: Phone
+  de: Telefon
+
+mail: 
+  en: E-Mail
+  de: E-Mail
+
+
+# CATEGORIES
+
+headline-categories:
+  en: Categories
+  de: Kategorien
+
+
+# POSTS
+
+share-article:
+  en: Share article
+  de: Artikel teilen
+
+written-by:
+  en: Written by
+  de: Verfasst von
+
+min-read-time:
+  en: min. read time
+  de: Min. Lesezeit
