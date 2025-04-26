@@ -26,10 +26,10 @@
     -->
 
     <h1>{{ site.data.translation.employees[page.lang] }}</h1>
+ 
+    {% assign employee_permalink = "/" | append: page.lang | append: "/employees" %}
+    {% assign employee_pages = site.pages | where_exp:"item", "item.permalink contains employee_permalink" %}
 
-    {% assign employee_permalink = "item.permalink contains '/" | append: page.lang | append: "/employees'" %}
-    {% assign employee_pages = site.pages | where_exp:"item", employee_permalink %}
-    
     {% for employee_page in employee_pages %}
         {% include employee-card.html %}
     {% endfor %}
