@@ -22,7 +22,7 @@ layout: default
 
     <h4 class="font-weight-bold spanborder pt-6"><span>{{ site.data.translation.headline-all-projects[page.lang] }}</span></h4>
 
-    {% assign lang_filter = "/" | append: page.lang | append: "/projects" %}
+    {% assign lang_filter = "/" | append: page.lang | append: "/projects/" %}
     {% assign project_pages = site.pages | where_exp:"item", "item.permalink contains lang_filter" | sort: "title" %}
 
     {% for project_page in project_pages %}

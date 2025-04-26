@@ -3,7 +3,7 @@ title: "Donations"
 lang: en
 layout: page-sidebar
 permalink: "/en/home/donations.html"
-image: assets/images/volksschule-7.jpg
+image: assets/images/volksschule-7.JPG
 button-text: Donate
 button-link: contact.html
 ---

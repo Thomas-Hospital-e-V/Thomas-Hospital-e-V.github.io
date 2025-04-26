@@ -7,7 +7,7 @@
         </div>
     </div> 
 
-    {% assign lang_filter = "/" | append: page.lang | append: "/projects" %}
+    {% assign lang_filter = "/" | append: page.lang | append: "/projects/" %}
     {% assign project_pages = site.pages | where_exp:"item", "item.permalink contains lang_filter" | sort: "title" %}
 
     {% for project_page in project_pages %}
