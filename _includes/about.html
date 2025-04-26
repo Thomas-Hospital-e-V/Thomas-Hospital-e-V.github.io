@@ -27,12 +27,9 @@
 
     <h1>{{ site.data.translation.employees[page.lang] }}</h1>
 
-    {% assign lang_filter = "/" | append: page.lang | append: "/" %}
-    <!--{% assign employee_pages = site.pages | where_exp:"item", "item.path contains '_pages/employees' and item.path contains lang_filter" | sort: "title" %}
-    {% assign employee_pages = site.pages | where_exp:"item", "item.path contains '_pages/employees/{{page.lang}}'" | sort: "title" %}-->
-    {% capture lang_path %}/{{ page.lang }}/{% endcapture %}
-    {% assign employee_pages = site.pages | where_exp:"item", "item.path contains '_pages/employees' and item.path contains lang_path" | sort: "title" %}
-
+    {% assign employee_permalink = "item.permalink contains '/" | append: page.lang | append: "/employees'" %}
+    {% assign employee_pages = site.pages | where_exp:"item", employee_permalink %}
+    
     {% for employee_page in employee_pages %}
         {% include employee-card.html %}
     {% endfor %}
