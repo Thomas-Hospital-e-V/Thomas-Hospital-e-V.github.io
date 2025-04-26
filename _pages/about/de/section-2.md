@@ -4,7 +4,7 @@ lang: de
 layout: default
 permalink: "/de/about/section-2.html"
 image: assets/images/IMG_3622.jpg
-image_pos: "leading"
+image-pos: "left"
 ---
 
 Wir freuen uns, dass wir vor Ort ausschließlich einheimische Mitarbeiter beschäftigen. Immer sind jedoch auch Fachkräfte aus dem Ausland willkommen, die praktische Hilfe in Kamerun einbringen wollen.
