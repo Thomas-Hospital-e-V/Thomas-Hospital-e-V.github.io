@@ -4,7 +4,7 @@ lang: en
 layout: default
 permalink: "/en/about/section-2.html"
 image: assets/images/IMG_3622.jpg
-image_pos: "leading"
+image-pos: "left"
 ---
 
 We are pleased that we exclusively employ local staff on-site. However, specialists from abroad are always welcome to provide practical help in Cameroon.
