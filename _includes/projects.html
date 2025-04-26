@@ -7,8 +7,8 @@
         </div>
     </div> 
 
-    {% assign lang_filter = "/" | append: page.lang | append: "/" %}
-    {% assign project_pages = site.pages | where_exp:"item", "item.path contains '_pages/projects/' and item.path contains lang_filter" | sort: "title" %}
+    {% assign lang_filter = "/" | append: page.lang | append: "/projects" %}
+    {% assign project_pages = site.pages | where_exp:"item", "item.permalink contains lang_filter" | sort: "title" %}
 
     {% for project_page in project_pages %}
         {% include project-card.html %}
