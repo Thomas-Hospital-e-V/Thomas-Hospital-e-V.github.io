@@ -17,7 +17,8 @@ permalink: "/en/contact.html"
 ### Donation Account
 ---
 
-**Beneficiary:** St. Thomas Hospital Sparkasse Fulda  
+**Beneficiary:** St. Thomas Hospital  
+**Institute:** Sparkasse Fulda  
 **IBAN:** DE05 5305 0180 0040 0494 78  
 **BIC:** HELADEF1FDS  
 

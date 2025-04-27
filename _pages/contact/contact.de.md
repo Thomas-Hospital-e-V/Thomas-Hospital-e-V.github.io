@@ -18,7 +18,8 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.944569947935!2d9
 ### Spendenkonto
 ---
 
-**Empfänger:** St. Thomas Hospital Sparkasse Fulda  
+**Empfänger:** St. Thomas Hospital  
+**Institut:** Sparkasse Fulda  
 **IBAN:** DE05 5305 0180 0040 0494 78  
 **BIC:** HELADEF1FDS  
 
