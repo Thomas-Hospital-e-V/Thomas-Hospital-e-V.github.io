@@ -33,7 +33,7 @@ eigentliche Grund unserer Reise, begannen.
 Das Praktikum startete für uns am Montagmorgen um 7:00 Uhr am College Bonneau, einer
 katholischen Privatschule der Diözese, nur unweit unseres Hauses. Dieser Tag begann wie jeder
 Montag mit dem wöchentlichen Fahnenappell und einer Ansprache der Direktorin. Zu sehen wie fast
-alle 600 Schüler*innen des Colleges in einheitlicher Schuluniform gekleidet, akkurat in Reih und Glied
+alle 600 Schüler des Colleges in einheitlicher Schuluniform gekleidet, akkurat in Reih und Glied
 auf dem Schulhof aufgestellt, die Nationalhymne singen und dabei noch von einem Disziplin Master
 streng beobachtet werden, war anfangs wirklich sehr seltsam und befremdlich. Ein Disziplin Master,
 also eine Person, deren Aufgabe darin besteht, darauf zu achten, dass sich alle Schüler an die
@@ -55,15 +55,15 @@ Frankophonen Sektion zusammensetzt. Zu diesem Zeitpunkt herrschte in Nko’vos a
 „Ausnahmezustand“, da das alte Gebäude des Kindergartens marode beziehungsweise nicht mehr
 sicher war. Deshalb wurden alle Gruppen in ein leerstehendes Kirchengebäude ausgelagert. Dort
 tummelten sich nun fast 100 kleine Kinder im Alter von 2-4 Jahren. Der Lautstärkepegel war enorm
-und die Erzieher*innen versuchten mit allen möglichen Mitteln die Kinder zu beschäftigen und
+und die Erzieher versuchten mit allen möglichen Mitteln die Kinder zu beschäftigen und
 irgendwie bei Laune zu halten. Dies gestaltete sich allerdings als echte Herausforderung, da es an
 Spielzeug mangelt. Sowohl in dem alten Kirchengebäude, als auch jetzt im neuen Gebäude, welches
 vergangene Woche erst von Bischof Philippe eingeweiht wurde, ist kein Spielzeug vorzufinden. Die
 einzelnen Gruppenräume bestehen lediglich aus Sitzgelegenheiten für die Kinder, einem Schreibtisch
-für die Erzieher*innen und einer Tafel. Von Spielsachen, dem eigentlich wichtigsten Equipment eines
+für die Erzieher und einer Tafel. Von Spielsachen, dem eigentlich wichtigsten Equipment eines
 Kindergartens, fehlt jedoch jede Spur.
 
-Naja, wir haben unser Bestes gegeben, die Erzieher*innen zu unterstützen und die Kinder mit
+Naja, wir haben unser Bestes gegeben, die Erzieher zu unterstützen und die Kinder mit
 diversen Tänzen, unter anderem mit dem Fliegerlied oder Head and Shoulders, Knees and Toes, zu
 beschäftigen. Nach circa 6 Stunden Kinderbetreuung ohne Spielzeug waren unsere Nerven dann auch
 am Ende.
@@ -76,7 +76,7 @@ und erst danach beginnt das College.
 
 Auch hier konnten wir noch einmal viele interessante Eindrücke sammeln, hautnah miterleben, wie
 sich das Leben der Kinder in Kamerun gestaltet und vor allem unser Französisch verbessern. Genauso
-wie im College tragen auch hier alle Schüler*innen eine Schuluniform, beten um Punkt 12:00 Uhr den
+wie im College tragen auch hier alle Schüler eine Schuluniform, beten um Punkt 12:00 Uhr den
 Angelus und beginnen jeden Schultag mit einem Fahnenapell.
 
 Viele Dinge laufen hier wirklich ganz anders als in Deutschland und dementsprechend groß sind auch

@@ -6,40 +6,72 @@ image: assets/images/logo.jpg
 author: philippe-mbarga
 ---
 
-B.P: 910 Ebolowa - Cameroun
+Dear Ladies and Gentlemen, dear friends!
 
-L'EVEQUE
+The start of a new Ecclesiastical year is once again a great occasion to send happy and thankful greetings  
+out to all of you. Moreover, this gives me amble opportunity to report to you of the many great encounters  
+and the multifaceted progress that occured last year.
 
-E-mail: dioceseebolowa20I6@gmail.com
+First of all I would like to thank you from the bottom of my heart for your support and care during my  
+visit to Europe this year, which -- by way of exception -- I was able to spend a large part of with the World  
+Synod in Rome.  
+It was very empowering for me to experience your help and friendship in such a multitude of ways;  
+I really am now able to claim Fulda as my second home.  
+Especially pleasurably for me hereby was the fact that I was able to speak to so many of you personally at our association meeting.  
+In particular I would like to thank everyone who included me into their prayers after my harsh car  
+accident on the 29. June, which occurred as I was on the way to give the blessings of a priestly ordination.  
+Due to the extensive loss of blood I suffered from, during the incident, I had to be treated in the hospital  
+for a prolonged time and our valuable car got wrecked completely; your eager help and participation  
+during this time of hardship was a huge consolation for me and my family.
 
-Ebolowa, November 18, 2023
+By the Grace most of God our last year Projects at the “Kinderhilfe & St.-Thomas” worked out to our  
+great benefit, even though the total running costs and amount of necessary investments increased  
+substantially.  
+A large role hereby was played by the temporary loss of two of our Sonography-devices, the  
+replacement of which resulted in a total cost of over 30.000 (!) Euros.  
+Moreover the continuously increasing number of help-seeking as well as sick people of course also results in higher procurement  
+costs for the diverse types of medicine, which in turn hindered the already prolonged purchase of our new  
+X-Ray Machine...  
+We now employ a total of 23 staff members in our Hospital:  
+4 Doctors (one general practitioner, one Dentist, one Ophthalmologist and an Internist for Ultrasound diagnostics),  
+12 Nurses, 2 Laboratory technicians, 3 members of cleaning staff and 2 members of security staff.
 
-Dear Ladies and Gentlemen, dear Friends!
+Furthermore we can now finally continue our Lessons undisturbed in the recently renovated Mvam-  
+Zamba-Public School; luckily nothing had to change concerning the daily Routine of the 130 enlisted  
+school children there; also the Orphanage is well cared for due to the passionate support due to the local  
+children and Community members.
 
-On the Feast of Christ the King 2023, I send you warm greetings from Ebolowa. This year, I was able to spend almost 2 months in Rome on the occasion of the Ad Limina visit of the Cameroonian bishops and the subsequent World Synod. I was happy to experience our universal church so vibrantly and - in the meantime - to enjoy your warm hospitality in Fulda.
+In the Mvam-Zamba-Infirmary a nurse and Laboratory technician are still holding regular consultation  
+hours, while one member of the cleaning staff is present.  
+Meanwhile the medical management remains at the hands of Dr. Elise, who comes into town to treat  
+and check on heavily sick patients 1--2 times per month.
 
-Despite the economic situation burdened by so many wars worldwide, I can report to you on a healthy development of our projects.
+This year I am especially pleased that Dr. Marion will again hand out the Journeyman Diplomas in our  
+Nsimalen vocational school: 11 staff members remain here and are employed in the Joinery and the  
+sewing room.  
+Here, the opportunity to produce our own furniture and clothing of course greatly helps to reduce the  
+running costs of our projects, and the Diocese of Ebolowa in general.
 
-In the bilingual boarding school we founded, the Hildegard-Althaus-School, 310 boys and girls are now taught. In my homeland, where there is an increasing conflict between the English and French-speaking parts of the country, we also make a very concrete contribution to mutual understanding and peace through bilingual education.
+We are also proud of our progress concerning the construction of the Hildegard-Althaus-School.  
+Meanwhile over 450 students can be taught in two languages (French and English) in this secondary  
+school.  
+The school programme we offer there is meant to be a lasting contribution to the efforts for  
+developing a lasting peace and especially tries to cater to children from refugees who suffered greatly  
+from the devastating civil war, raging in the anglophone regions of Kamerun.
 
-We are very grateful that this grammar school also enables children who live scattered far and wide in the bush and mostly come from poor families to attend school.
+To also include and reach out to children who live apart from the Jungle, we also plan to develop and  
+construct a local boarding school.
 
-The...
+In addition, we were very happy with the 5 Month long visit from Fulda:  
+Josephina and Celina were passionately involved in the construction of several playgrounds and continued to support us heavily, even  
+(out of distance) from Germany.  
+I found it very pleasurable to have both mothers and her cousin Emilia here for such a short time in  
+Ebolowa--and seeing you again in your Hometown!
 
-... a radiologist, an internist and a dentist regularly work as consultants at St. Thomas Hospital. In addition, we employ a total of 16 people as nurses, in the pharmacy, the laboratory and as security personnel.
+As you can see, I have all the reason in the world to thank you all from the bottom of my--and in the name  
+of the people betrusted to me and my Diocese--heart.  
+With your continual support we can change a lot of things here for the better, I count on your help!
 
-We are very happy that we can offer a solid supply of medical care to the sick with a well-equipped laboratory and the new ultrasound machine. However, we are still dependent on generous donations for the purchase of an X-ray machine...
+With thankful greeting, yours sincerely:
 
-Sister Silvie and Dr. Elise look back with particular gratitude on their visit to Fulda this summer. For Sister Silvie - the headmistress of the Catholic grammar school in Ebolowa - it was her first visit to Europe, while Dr. Elise has found something of a second home in Fulda as part of the regular professional exchange.
-
-For us Cameroonians, it is a particularly beautiful and very enriching experience to be able to travel and get to know your home...
-
-Thank you from the bottom of my heart for your hospitality, without which such an undertaking would never have been possible!
-
-Finally, I send you heartfelt thanks and greetings from all our employees, especially from Dr. Elise and Sr. Silvie, as well as, of course, from the children, young people and patients entrusted to us.
-
-I trust that we will see each other again soon and in good health! God bless and protect you!
-
-With all good wishes for a Merry Advent season,
-
-Msgr. Dr. Philippe Alain
+**Mgr. Dr. Philippe Alain MBARGA**
