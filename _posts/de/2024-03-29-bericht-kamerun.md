@@ -3,7 +3,7 @@ layout: post
 title:  "Bericht aus Kamerun 2024"
 categories: [ Kinderhilfe ]
 image: assets/images/IMG_5938.jpg
-author: marion-fuhrmann
+author: josephina-schaefer
 ---
 
 Ausflug in den Busch
