@@ -117,4 +117,4 @@ unterstützen und umzusetzen und damit anderen etwas Gutes zu tun.
 
 Ébolowa, den 10. Januar 2024
 
-Josephina Schäfer          
+Josephina Schäfer
