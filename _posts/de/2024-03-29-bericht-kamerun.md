@@ -3,7 +3,7 @@ layout: post
 title:  "Bericht aus Kamerun 2024"
 categories: [ Kinderhilfe ]
 image: assets/images/IMG_5938.jpg
-author: josephina-schaefer
+author: celina-mueller
 ---
 
 Ausflug in den Busch

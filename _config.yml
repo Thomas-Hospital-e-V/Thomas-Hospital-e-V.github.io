@@ -57,7 +57,7 @@ authors:
     sylvia-usbeck:
       name:           Sylvia Usbeck
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-sylvia usbeck.jpg
+      avatar:         assets/images/avatar-sylvia-usbeck.jpg
       bio:            "Website-Einrichtung und Betreuung"
       email:          info@praxis-frauenberg.de 
 
@@ -66,6 +66,13 @@ authors:
       site:           https://thomas-hospital.de
       avatar:         assets/images/avatar-default-male.png
       bio:            "Website-Einrichtung und Betreuung, Englisch-Übersetzung"
+      email:          info@praxis-frauenberg.de 
+
+    celina-mueller:
+      name:           Celina Müller
+      site:           https://thomas-hospital.de
+      avatar:         assets/images/avatar-celina-mueller.jpg
+      bio:            ""
       email:          info@praxis-frauenberg.de 
 
 # Defaults
