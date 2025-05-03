@@ -5,7 +5,20 @@ summary: "Das Krankenhaus in der Hauptstadt Yaoundé hat 60 Betten. Wir freuen u
 layout: project
 permalink: "/de/projects/krankenhaus.html"
 images: 
-- assets/images/krankenstation-0.JPG
+- assets/images/projekt_st_thomas_hospital/0.jpg
+- assets/images/projekt_st_thomas_hospital/1.jpg
+- assets/images/projekt_st_thomas_hospital/2.jpg
+- assets/images/projekt_st_thomas_hospital/3.jpg
+- assets/images/projekt_st_thomas_hospital/4.jpg
+- assets/images/projekt_st_thomas_hospital/5.jpg
+- assets/images/projekt_st_thomas_hospital/6.jpg
+- assets/images/projekt_st_thomas_hospital/7.jpg
+- assets/images/projekt_st_thomas_hospital/8.jpg
+- assets/images/projekt_st_thomas_hospital/9.jpg
+- assets/images/projekt_st_thomas_hospital/10.jpg
+- assets/images/projekt_st_thomas_hospital/11.jpg
+- assets/images/projekt_st_thomas_hospital/12.jpg
+- assets/images/projekt_st_thomas_hospital/13.jpg
 ---
 
 Das Krankenhaus in der Hauptstadt Yaoundé hat 60 Betten. Wir freuen uns, mit Dr. Elise eine kompetente und engagierte Chefärztin zu haben, die durch Dr. Agnes fachkundig unterstützt wird.

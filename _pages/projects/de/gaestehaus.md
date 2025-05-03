@@ -5,7 +5,7 @@ summary: "Dank der großzügigen Unterstützung von Herrn Prof. Thomas Reich kon
 layout: project
 permalink: "/de/projects/gaestehaus.html"
 images: 
-- assets/images/volksschule-0.JPG
+- assets/images/projekt_gaestehaus/0.jpg
 ---
 
 Die Initiative für ein pastorales Gästehaus ging von unserem Gründungsmitglied Herrn Prof. Thomas Reich aus. Dank der großzügigen Unterstützung von Herrn Prof. Thomas Reich konnte das sehr komfortable Gästehaus mittlerweile fertiggestellt werden und steht unseren Besuchern gern zur Verfügung.
