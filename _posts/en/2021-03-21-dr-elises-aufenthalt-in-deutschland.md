@@ -2,7 +2,7 @@
 layout: post
 title:  "Dr. Elise's Stay in Germany"
 categories: [ Deutschland ]
-image: assets/images/3602.jpg
+image: assets/images/website_images/3602.jpg
 author: marion-fuhrmann
 ---
 Before our hospital in Yaoundé can be inaugurated, another container is to be sent on its way to Dipperz – if possible, with the basic equipment for the laboratory. Since there is still a lot to be purchased for this, we are still dependent on financial support.

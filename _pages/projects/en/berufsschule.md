@@ -5,20 +5,20 @@ summary: "A particular concern of our association is the training of young peopl
 layout: project
 permalink: "/en/projects/berufsschule.html"
 images: 
-- assets/images/berufsschule-1.JPG
-- assets/images/berufsschule-2.JPG
-- assets/images/berufsschule-3.JPG
-- assets/images/berufsschule-4.JPG
-- assets/images/berufsschule-5.JPG
-- assets/images/berufsschule-6.JPG
-- assets/images/berufsschule-7.JPG
-- assets/images/berufsschule-8.JPG
-- assets/images/berufsschule-9.JPG
-- assets/images/berufsschule-0.JPG
-- assets/images/berufsschule-10.JPG
-- assets/images/berufsschule-11.JPG
-- assets/images/berufsschule-12.JPG
-- assets/images/berufsschule-13.JPG
+- assets/images/projekt_berufsschule/berufsschule-1.jpg
+- assets/images/projekt_berufsschule/berufsschule-2.jpg
+- assets/images/projekt_berufsschule/berufsschule-3.jpg
+- assets/images/projekt_berufsschule/berufsschule-4.jpg
+- assets/images/projekt_berufsschule/berufsschule-5.jpg
+- assets/images/projekt_berufsschule/berufsschule-6.jpg
+- assets/images/projekt_berufsschule/berufsschule-7.jpg
+- assets/images/projekt_berufsschule/berufsschule-8.jpg
+- assets/images/projekt_berufsschule/berufsschule-9.jpg
+- assets/images/projekt_berufsschule/berufsschule-0.jpg
+- assets/images/projekt_berufsschule/berufsschule-10.jpg
+- assets/images/projekt_berufsschule/berufsschule-11.jpg
+- assets/images/projekt_berufsschule/berufsschule-12.jpg
+- assets/images/projekt_berufsschule/berufsschule-13.jpg
 ---
 
 ## Vocational School

@@ -2,7 +2,7 @@
 layout: post
 title:  "Letter from Bishop Phillipe at the End of the Year"
 categories: [ Kinderhilfe ]
-image: assets/images/2021-11-26-10_07_31-Brief-Bischof-Philippe---Unterschrift.png
+image: assets/images/posts_images/2021-11-26-10_07_31-Brief-Bischof-Philippe---Unterschrift.png
 author: philippe-mbarga
 ---
 

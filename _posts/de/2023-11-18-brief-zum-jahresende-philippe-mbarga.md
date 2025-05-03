@@ -2,7 +2,7 @@
 layout: post
 title:  "Schreiben zum Jahresende 2023 von Msgr. Dr. Philippe Alain Mbarga Bischof von Ebolowa"
 categories: [ Kinderhilfe ]
-image: assets/images/logo.jpg
+image: assets/images/posts_images/logo.jpg
 author: philippe-mbarga
 ---
 

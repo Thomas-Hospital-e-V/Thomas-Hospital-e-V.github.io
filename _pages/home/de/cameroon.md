@@ -3,7 +3,7 @@ title: "Kamerun 🇨🇲"
 lang: de
 layout: page-sidebar
 permalink: "/de/home/cameroon.html"
-image: assets/images/volksschule-5.jpg
+image: assets/images/website_images/volksschule-5.jpg
 image-pos: "left"
 ---
 
@@ -13,6 +13,6 @@ Kamerun liegt im Schnittpunkt von West- und Zentralafrika. Durch seine Nord-Süd
 - **Landfläche:** 475,442 km<sup>2</sup>
 - **Einwohner:** ca. 31 Millionen
 - **Hauptstadt:** Yaoundé (ca. 2,4 Millionen Einwohner)
-- **Amtssprachen:** Französisch (80%), Englisch 
+- **Amtssprachen:** Französisch (80%), Englisch (20%)
 - **Weitere Sprachen:** über 250 verschiedene
 

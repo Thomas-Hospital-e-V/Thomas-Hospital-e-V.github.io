@@ -5,15 +5,15 @@ summary: "School attendance at our Mvam-Zamba elementary school is free for all 
 layout: project
 permalink: "/en/projects/volksschule.html"
 images: 
-- assets/images/volksschule-0.JPG
-- assets/images/volksschule-1.JPG
-- assets/images/volksschule-2.JPG
-- assets/images/volksschule-3.JPG
-- assets/images/volksschule-4.JPG
-- assets/images/volksschule-5.JPG
-- assets/images/volksschule-6.JPG
-- assets/images/volksschule-7.JPG
-- assets/images/volksschule-8.JPG
+- assets/images/projekt_volksschule/volksschule-0.jpg
+- assets/images/projekt_volksschule/volksschule-1.jpg
+- assets/images/projekt_volksschule/volksschule-2.jpg
+- assets/images/projekt_volksschule/volksschule-3.jpg
+- assets/images/projekt_volksschule/volksschule-4.jpg
+- assets/images/projekt_volksschule/volksschule-5.jpg
+- assets/images/projekt_volksschule/volksschule-6.jpg
+- assets/images/projekt_volksschule/volksschule-7.jpg
+- assets/images/projekt_volksschule/volksschule-8.jpg
 ---
 
 ## Elementary School

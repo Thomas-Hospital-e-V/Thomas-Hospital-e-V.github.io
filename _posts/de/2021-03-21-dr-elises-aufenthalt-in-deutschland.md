@@ -2,7 +2,7 @@
 layout: post
 title:  "Dr. Elises Aufenthalt in Deutschland"
 categories: [ Deutschland ]
-image: assets/images/3602.jpg
+image: assets/images/website_images/3602.jpg
 author: marion-fuhrmann
 ---
 Bevor unser Krankenhaus in Yaoundé eingeweiht werden kann, soll noch einmal ein Container in Dipperz auf den Weg gebracht werden – nach Möglichkeit mit der Grundeinrichtung für das Labor. Da hierfür noch vieles eingekauft werden muss, sind wir hier nach wie vor insbesondere auf finanzielles Wohlwollen angewiesen.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Brief von Bischof Phillipe zum Jahresausklang 2022"
 categories: [ Kinderhilfe ]
-image: assets/images/logo.jpg
+image: assets/images/posts_images/logo.jpg
 author: philippe-mbarga
 ---
 

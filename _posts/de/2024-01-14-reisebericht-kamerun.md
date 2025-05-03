@@ -2,7 +2,7 @@
 layout: post
 title:  "Reisebericht Kamerun 2023/2024"
 categories: [ Kinderhilfe ]
-image: assets/images/reisebericht-2024.jpg
+image: assets/images/posts_images/reisebericht-2024.jpg
 author: josephina-schaefer
 ---
 

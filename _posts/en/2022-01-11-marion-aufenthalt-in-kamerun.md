@@ -2,7 +2,7 @@
 layout: post
 title:  "Dr. Fuhrmann's Stay in Cameroon December 2021 / January 2022"
 categories: [ Kinderhilfe ]
-image: assets/images/krankenstation-0.JPG
+image: assets/images/projekt_krankenstation/krankenstation-0.jpg
 author: marion-fuhrmann
 ---
 

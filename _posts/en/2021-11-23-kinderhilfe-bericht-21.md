@@ -2,7 +2,7 @@
 layout: post
 title:  "Children's Aid Report 2021"
 categories: [ Kinderhilfe ]
-image: assets/images/waisenhaus-5.JPG
+image: assets/images/projekt_waisenhaus/waisenhaus-5.jpg
 author: marion-fuhrmann
 ---
 

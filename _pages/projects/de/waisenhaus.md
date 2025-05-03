@@ -5,12 +5,12 @@ summary: "Derzeit werden ca. 12 Kinder von einer zuständigen Ordensfrau betreut
 layout: project
 permalink: "/de/projects/waisenhaus.html"
 images: 
-- assets/images/waisenhaus-0.JPG
-- assets/images/waisenhaus-1.JPG
-- assets/images/waisenhaus-2.JPG
-- assets/images/waisenhaus-3.JPG
-- assets/images/waisenhaus-4.JPG
-- assets/images/waisenhaus-5.JPG
+- assets/images/projekt_waisenhaus/waisenhaus-0.jpg
+- assets/images/projekt_waisenhaus/waisenhaus-1.jpg
+- assets/images/projekt_waisenhaus/waisenhaus-2.jpg
+- assets/images/projekt_waisenhaus/waisenhaus-3.jpg
+- assets/images/projekt_waisenhaus/waisenhaus-4.jpg
+- assets/images/projekt_waisenhaus/waisenhaus-5.jpg
 ---
 
 ## Waisenhaus

@@ -5,15 +5,15 @@ summary: "Hospitals only exist in the big cities and are only accessible to the 
 layout: project
 permalink: "/en/projects/krankenstation.html"
 images: 
-- assets/images/krankenstation-0.JPG
-- assets/images/krankenstation-1.JPG
-- assets/images/krankenstation-2.JPG
-- assets/images/krankenstation-3.JPG
-- assets/images/krankenstation-4.JPG
-- assets/images/krankenstation-5.JPG
-- assets/images/krankenstation-6.JPG
-- assets/images/krankenstation-7.JPG
-- assets/images/krankenstation-8.JPG
+- assets/images/projekt_krankenstation/krankenstation-0.jpg
+- assets/images/projekt_krankenstation/krankenstation-1.jpg
+- assets/images/projekt_krankenstation/krankenstation-2.jpg
+- assets/images/projekt_krankenstation/krankenstation-3.jpg
+- assets/images/projekt_krankenstation/krankenstation-4.jpg
+- assets/images/projekt_krankenstation/krankenstation-5.jpg
+- assets/images/projekt_krankenstation/krankenstation-6.jpg
+- assets/images/projekt_krankenstation/krankenstation-7.jpg
+- assets/images/projekt_krankenstation/krankenstation-8.jpg
 ---
 
 ## Infirmary

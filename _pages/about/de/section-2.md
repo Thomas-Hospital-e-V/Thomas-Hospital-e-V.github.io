@@ -3,7 +3,7 @@ title: "Lokal fördern und unterstützen"
 lang: de
 layout: default
 permalink: "/de/about/section-2.html"
-image: assets/images/IMG_3622.jpg
+image: assets/images/website_images/IMG_3622.jpg
 image-pos: "left"
 ---
 

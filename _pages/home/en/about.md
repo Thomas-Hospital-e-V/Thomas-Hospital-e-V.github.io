@@ -3,7 +3,7 @@ title: "About"
 lang: en
 layout: page-sidebar
 permalink: "/en/home/about.html"
-image: "assets/images/waisenhaus-4.JPG"
+image: "assets/images/website_images/waisenhaus-4.jpg"
 button-text: More about us
 button-link: about.html
 ---

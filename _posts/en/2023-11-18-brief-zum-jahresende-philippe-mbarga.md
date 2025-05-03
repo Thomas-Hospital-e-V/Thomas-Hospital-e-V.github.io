@@ -2,7 +2,7 @@
 layout: post
 title:  "Letter at the End of 2023 from Msgr. Dr. Philippe Alain Mbarga Bishop of Ebolowa"
 categories: [ Kinderhilfe ]
-image: assets/images/logo.jpg
+image: assets/images/posts_images/logo.jpg
 author: philippe-mbarga
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Letter from Bishop Phillipe at the End of the Year 2022"
 categories: [ Kinderhilfe ]
-image: assets/images/logo.jpg
+image: assets/images/posts_images/logo.jpg
 author: philippe-mbarga
 ---
 

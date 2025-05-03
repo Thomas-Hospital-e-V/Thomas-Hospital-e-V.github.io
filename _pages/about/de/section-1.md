@@ -3,7 +3,7 @@ title: "Wer wir sind"
 lang: de
 layout: default
 permalink: "/de/about/section-1.html"
-image: assets/images/IMG_6144.jpg
+image: assets/images/website_images/IMG_6144.jpg
 image_pos: "trailing"
 ---
 
