@@ -10,7 +10,7 @@ Final deployment: https://www.thomas-hospital.de
 
 ```
 bundle install
-bundle exec jekyll serve --baseurl=""
+bundle exec jekyll serve
 ```
 
 
