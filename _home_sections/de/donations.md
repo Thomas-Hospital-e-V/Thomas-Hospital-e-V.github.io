@@ -1,8 +1,6 @@
 ---
 title: "Spenden"
 lang: de
-layout: page-sidebar
-permalink: "/de/home/donations.html"
 image: assets/images/website_images/volksschule-7.jpg
 button-text: Spenden
 button-link: contact.html

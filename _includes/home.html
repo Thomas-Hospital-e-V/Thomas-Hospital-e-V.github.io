@@ -12,8 +12,8 @@
 
 
 <!-- About Section -->
-{% assign about_permalink = "/" | append: page.lang | append: "/home/about.html" %}
-{% assign section = site.pages | where: "permalink", about_permalink | first %}
+{% assign home_sections = site.home_sections | where: "lang", page.lang %}
+{% assign section = home_sections | where_exp: "item", "item.relative_path contains '/about.md'" | first %}
 {% include page-section.html %}
 
 <br>
@@ -147,13 +147,11 @@
 <br>
 
 <!-- Kamerun Section -->
-{% assign section_permalink = "/" | append: page.lang | append: "/home/cameroon.html" %}
-{% assign section = site.pages | where: "permalink", section_permalink | first %}
+{% assign section = home_sections | where_exp: "item", "item.relative_path contains '/cameroon.md'" | first %}
 {% include page-section.html %}
 
 <!-- Donation Section -->
-{% assign donation_permalink = "/" | append: page.lang | append: "/home/donations.html" %}
-{% assign section = site.pages | where: "permalink", donation_permalink | first %}
+{% assign section = home_sections | where_exp: "item", "item.relative_path contains '/donations.md'" | first %}
 {% include page-section.html %}
 
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->

@@ -1,8 +1,6 @@
 ---
 title: "Cameroon 🇨🇲"
 lang: en
-layout: page-sidebar
-permalink: "/en/home/cameroon.html"
 image: assets/images/website_images/volksschule-5.jpg
 image-pos: "left"
 ---

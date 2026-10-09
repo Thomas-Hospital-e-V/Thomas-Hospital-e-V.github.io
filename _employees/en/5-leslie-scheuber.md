@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: "/en/employees/5-leslie-scheuber.html"
+lang: en
 image: assets/images/team/leslie-scheuber.jpg
 ---
 

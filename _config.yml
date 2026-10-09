@@ -14,6 +14,10 @@ include: ["_pages"]
 collections:
   about_sections:
     output: false
+  home_sections:
+    output: false
+  employees:
+    output: false
 
 permalink: /:title/
 

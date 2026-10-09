@@ -5,7 +5,7 @@
       <img 
       src="{% if employee_page.image contains '://' %}{{ employee_page.image }}{% else %}{{ site.baseurl }}/{{ employee_page.image }}{% endif %}" 
       class="img-fluid h-100 w-100" 
-      alt="{{ employee_page.title }}"
+      alt=""
       style="object-fit: contain; height: 100%;"
       >
   </div>

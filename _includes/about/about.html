@@ -21,8 +21,7 @@
 
     <!-- Mitarbeiter -->
 
-    {% assign employee_permalink = "/" | append: page.lang | append: "/employees" %}
-    {% assign employee_pages = site.pages | where_exp:"item", "item.permalink contains employee_permalink" %}
+    {% assign employee_pages = site.employees | where: "lang", page.lang %}
 
     <div class="row mt-3">
         <div class="col-12 mx-auto">
