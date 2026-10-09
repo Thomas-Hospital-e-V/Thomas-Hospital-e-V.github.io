@@ -7,14 +7,14 @@
         </div>
     </div> 
 
+    {% assign about_sections = site.about_sections | where: "lang", page.lang %}
+
     <!-- Section 1 -->
-    {% assign about_permalink = "/" | append: page.lang | append: "/about/section-1.html" %}
-    {% assign section = site.pages | where: "permalink", about_permalink | first %}
+    {% assign section = about_sections | where_exp: "item", "item.relative_path contains 'section-1.md'" | first %}
     {% include page-section.html %}
 
     <!-- Section 2 -->
-    {% assign about_permalink = "/" | append: page.lang | append: "/about/section-2.html" %}
-    {% assign section = site.pages | where: "permalink", about_permalink | first %}
+    {% assign section = about_sections | where_exp: "item", "item.relative_path contains 'section-2.md'" | first %}
     {% include page-section.html %}
 
     <div style="padding: 20px"></div>
@@ -45,7 +45,6 @@
 
 
     <!-- Section 3 Kamerun -->
-    {% assign about_permalink = "/" | append: page.lang | append: "/about/section-3.html" %}
-    {% assign about_page = site.pages | where: "permalink", about_permalink | first %}
-    {{ about_page.content | markdownify }}
+    {% assign section = about_sections | where_exp: "item", "item.relative_path contains 'section-3.md'" | first %}
+    {{ section.content | markdownify }}
 </div>

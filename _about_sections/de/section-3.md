@@ -1,8 +1,6 @@
 ---
 title: "Kamerun"
 lang: de
-layout: default
-permalink: "/de/about/section-3.html"
 image: assets/images/website_images/IMG_3622.jpg
 image_pos: "leading"
 ---

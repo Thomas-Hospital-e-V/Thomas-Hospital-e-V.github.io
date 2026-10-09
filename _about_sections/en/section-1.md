@@ -1,8 +1,6 @@
 ---
 title: "Who We Are"
 lang: en
-layout: default
-permalink: "/en/about/section-1.html"
 image: assets/images/website_images/IMG_6144.jpg
 image_pos: "trailing"
 ---
