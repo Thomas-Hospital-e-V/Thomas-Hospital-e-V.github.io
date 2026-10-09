@@ -5,7 +5,6 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 url: 'https://thomas-hospital.de'
 baseurl: ''
-disqus: 'demowebsite'
 email: 'info@praxis-frauenberg.de'
 #mailchimp-list: ''
 
