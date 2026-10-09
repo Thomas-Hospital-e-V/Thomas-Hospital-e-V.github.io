@@ -16,20 +16,19 @@
 {% assign section = home_sections | where_exp: "item", "item.relative_path contains '/about.md'" | first %}
 {% include page-section.html %}
 
-<br>
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 {% assign lang_posts = site.posts | where: "lang", page.lang %}
-<div class="row remove-site-content-margin">
+<div class="row">
     
     <!-- latest post -->
 
     {% assign latest_post = lang_posts[0] %}
-    <div class="col-md-6">
-    <div class="card border-0 mb-4 box-shadow">   
+    <div class="col-md-6 mb-4 mb-md-0">
+    <div class="card article-border h-100 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
     <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px; background-position: center; background-size: cover; background-repeat: no-repeat;"></div>     
     </a>
-    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <div class="card-body d-flex flex-column align-items-start">
     <h2 class="h4 font-weight-bold">
     <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
     </h2>
@@ -57,19 +56,19 @@
     </div>
     </div>
     
-    <div class="col-md-6">
+    <div class="col-md-6 home-previews">
         
         <!-- second latest post -->
         {%- assign second_post = lang_posts[1] -%}        
-        <div class="mb-3 d-flex align-items-center">                
+        <div class="d-flex article-border home-preview">                
                 {% if second_post.image %}
-                <div class="col-md-4">
+                <div class="col-4 px-0 position-relative">
                 <a href="{{site.baseurl}}{{second_post.url}}">
-                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                 <img class="home-preview-img" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
-                <div>
+                <div class="px-3 py-2 align-self-center">
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
@@ -88,15 +87,15 @@
         
         <!-- third latest post -->
         {%- assign third_post = lang_posts[2] -%}        
-        <div class="mb-3 d-flex align-items-center">                
+        <div class="d-flex article-border home-preview">                
                 {% if third_post.image %}
-                <div class="col-md-4">
+                <div class="col-4 px-0 position-relative">
                 <a href="{{site.baseurl}}{{third_post.url}}">
-                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                 <img class="home-preview-img" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
-                <div>
+                <div class="px-3 py-2 align-self-center">
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
@@ -115,15 +114,15 @@
         
         <!-- fourth latest post -->
         {%- assign fourth_post = lang_posts[3] -%}        
-        <div class="mb-3 d-flex align-items-center">                
+        <div class="d-flex article-border home-preview">                
                 {% if fourth_post.image %}
-                <div class="col-md-4">
+                <div class="col-4 px-0 position-relative">
                 <a href="{{site.baseurl}}{{fourth_post.url}}">
-                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                <img class="home-preview-img" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
-                <div>
+                <div class="px-3 py-2 align-self-center">
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
@@ -143,8 +142,6 @@
     </div>
     
 </div>
-
-<br>
 
 <!-- Kamerun Section -->
 {% assign section = home_sections | where_exp: "item", "item.relative_path contains '/cameroon.md'" | first %}
