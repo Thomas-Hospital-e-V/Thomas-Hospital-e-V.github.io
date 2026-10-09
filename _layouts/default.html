@@ -11,13 +11,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
     <!-- Fonts (self-hosted) -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css?v={{ site.time | date: "%s" }}">
 
     <!-- Bootstrap Modified -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css?v={{ site.time | date: "%s" }}">
 
     <!-- Theme Stylesheet -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css?v={{ site.time | date: "%s" }}">
 
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script src="{{site.baseurl}}/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
@@ -58,7 +58,7 @@
 
     <script src="{{site.baseurl}}/assets/vendor/bootstrap/bootstrap-4.2.1.min.js"></script>
 
-    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+    <script src="{{site.baseurl}}/assets/js/theme.js?v={{ site.time | date: "%s" }}"></script>
 
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
