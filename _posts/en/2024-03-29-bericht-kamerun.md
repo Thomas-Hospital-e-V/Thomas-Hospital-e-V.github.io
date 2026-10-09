@@ -3,7 +3,7 @@ layout: post
 title:  "Report from Cameroon 2024"
 categories: [ Kinderhilfe ]
 image: assets/images/website_images/IMG_5938.jpg
-author: josephina-schaefer
+author: celina-mueller
 ---
 
 Excursion into the Bush
