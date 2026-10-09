@@ -712,17 +712,47 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	border-bottom:1px solid #e8f3ec;
 	margin-bottom:2rem;
 }
+.post-send-link {
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	width:32px;
+	height:32px;
+	margin:.5rem .15rem 0;
+	border-radius:50%;
+	color:#fff;
+	transition:opacity .15s;
+}
+.post-send-link:hover {
+	color:#fff;
+	opacity:.8;
+}
+.post-send-link svg {
+	width:16px;
+	height:16px;
+	fill:currentColor;
+}
+.post-send-fb { background-color:#1877f2; }
+.post-send-x { background-color:#000; }
+.post-send-wa { background-color:#25d366; }
+.post-send-mail { background-color:#6c757d; }
+@media (min-width:992px) {
+	.post-send-link {
+		display:flex;
+		width:40px;
+		height:40px;
+		margin:.5rem auto 0;
+	}
+	.post-send-link svg {
+		width:20px;
+		height:20px;
+	}
+}
 .spanborder span {
 	border-bottom:1px solid rgba(0,0,0,0.44);
 	display:inline-block;
 	padding-bottom:20px;
 	margin-bottom:-1px;
-}
-.a2a_default_style .a2a_svg {
-	border-radius:50% !important;
-	margin-top:.5rem;
-	margin-left:auto;
-	margin-right:auto;
 }
 @media (max-width:1199.98px) {
 	.display-4 {
@@ -735,30 +765,6 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	}
 	.alertbar {
 		display: none !important;
-	}
-}
-@media (min-width:992px) {
-	.a2a_default_style a {
-		display:block !important;
-		float:none !important;
-	}
-	.a2a_default_style .a2a_svg {
-		border-radius:50% !important;
-		display:block !important;
-		float:none !important;
-		margin-top:.5rem;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	.a2a_svg {
-		height:40px !important;
-		line-height:40px !important;
-		width:40px !important;
-	}
-    .a2a_mini_services .a2a_svg, .a2a_menu_show_more_less .a2a_svg, .a2a_full .a2a_svg {
-		height:20px !important;
-		line-height:20px !important;
-		width:20px !important;
 	}
 }
 @media (min-width:992px) {
@@ -782,11 +788,6 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 		margin-left: 260px;
 	}
 }
-a.a2a_i, i.a2a_i, .a2a_menu a.a2a_i:visited, .a2a_menu a.a2a_more {
-    font-size:13px !important;
-    color:#999 !important;
-}
-div.a2a_full_footer {display:none;}
 @media (min-width: 1920px) {
 	html {font-size:17px;}
 	.container, .container-lg {    

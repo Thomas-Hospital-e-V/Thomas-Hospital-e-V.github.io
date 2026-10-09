@@ -10,11 +10,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-    <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+    <!-- Fonts (self-hosted) -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css">
 
     <!-- Bootstrap Modified -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
@@ -23,10 +20,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
 
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="{{site.baseurl}}/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
 
     {% include tracking-header.html %}
 
@@ -70,9 +64,9 @@
     
         <!-- jQuery (required for Bootstrap 4) -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="{{site.baseurl}}/assets/vendor/popper/popper-1.14.6.min.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="{{site.baseurl}}/assets/vendor/bootstrap/bootstrap-4.2.1.min.js"></script>
 
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
