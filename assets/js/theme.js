@@ -84,3 +84,15 @@ $(function() {
     }
   }
 });
+
+$('.post-send-share').on('click', function() {
+  var button = this, url = button.dataset.url;
+  if (navigator.share) {
+    navigator.share({ title: document.title, url: url }).catch(function() {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(function() {
+      button.classList.add('is-copied');
+      setTimeout(function() { button.classList.remove('is-copied'); }, 2000);
+    });
+  }
+});

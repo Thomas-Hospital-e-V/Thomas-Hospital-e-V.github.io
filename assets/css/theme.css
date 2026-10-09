@@ -736,6 +736,9 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 .post-send-x { background-color:#000; }
 .post-send-wa { background-color:#25d366; }
 .post-send-mail { background-color:#6c757d; }
+.post-send-share { background-color:#343a40; border:0; padding:0; cursor:pointer; }
+.post-send-share .icon-done, .post-send-share.is-copied .icon-share { display:none; }
+.post-send-share.is-copied .icon-done { display:block; }
 @media (min-width:992px) {
 	.post-send-link {
 		display:flex;
