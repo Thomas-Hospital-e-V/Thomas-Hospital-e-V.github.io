@@ -7,7 +7,7 @@ author: marion-fuhrmann
 ---
 Bevor unser Krankenhaus in Yaoundé eingeweiht werden kann, soll noch einmal ein Container in Dipperz auf den Weg gebracht werden – nach Möglichkeit mit der Grundeinrichtung für das Labor. Da hierfür noch vieles eingekauft werden muss, sind wir hier nach wie vor insbesondere auf finanzielles Wohlwollen angewiesen.
 
-![Bild]({{ site.baseurl }}/assets/images/waisenhaus-1.JPG)
+![Bild]({{ site.baseurl }}/assets/images/projekt_waisenhaus/waisenhaus-1.jpg)
 
 In diesem Zusammenhang ist es mir eine besondere Freude, Euch meine Kollegin Frau Dr. Bana (oder auch Dr. Elise) aus Kamerun vorzustellen.
 

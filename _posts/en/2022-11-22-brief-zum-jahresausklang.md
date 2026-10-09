@@ -36,6 +36,6 @@ God bless and protect you!
 
 With all good wishes for a Merry Advent season,
 
-![Image]({{ site.baseurl }}/assets/images/stempel-diocese-d-ebolowa.jpg)
+![Image]({{ site.baseurl }}/assets/images/posts_images/stempel-diocese-d-ebolowa.jpg)
 
 Philippe Alain MBARGA, Bishop of Ebolowa

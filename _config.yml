@@ -31,56 +31,56 @@ authors:
     marion-fuhrmann:
       name:           Dr. med. Marion Fuhrmann
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-marion-fuhrmann.jpg
+      avatar:         assets/images/team/avatar-marion-fuhrmann.jpg
       bio:            "Vorsitzende, Dokumentation und Reisekoordination, Medizinscher Support."
       email:          info@praxis-frauenberg.de 
 
     philippe-mbarga:
       name:           Msgr. Dr. Philippe Alain Mbarga
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-philippe-mbarga.jpg
+      avatar:         assets/images/team/avatar-philippe-mbarga.jpg
       bio:            "Bischof von Ebolowa, Projektleiter in Kamerun"
       email:          mbarga@web.de
 
     josephina-schaefer:
       name:           Josephina Schäfer
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-default-female.png
+      avatar:         assets/images/team/avatar-default-female.png
       bio:            ""
       email:          info@praxis-frauenberg.de 
 
     petra-leinweber:
       name:           Petra Leinweber
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-petra-leinweber.jpg
+      avatar:         assets/images/team/avatar-petra-leinweber.jpg
       bio:            "Vorsitzende, Einrichtung und Beratung Berufsschulzentrum / Hospital und aller weiteren Projekte, Transport und Logistik, Dokumentation und Reisekoordination"
       email:          info@praxis-frauenberg.de 
 
     leslie-scheuber:
       name:           Leslie Scheuber
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-leslie-scheuber.jpg
+      avatar:         assets/images/team/avatar-leslie-scheuber.jpg
       bio:            "Website-Einrichtung und Betreuung"
       email:          info@praxis-frauenberg.de 
 
     sylvia-usbeck:
       name:           Sylvia Usbeck
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-sylvia-usbeck.jpg
+      avatar:         assets/images/team/avatar-sylvia-usbeck.jpg
       bio:            "Website-Einrichtung und Betreuung"
       email:          info@praxis-frauenberg.de 
 
     david-usbeck:
       name:           David Usbeck
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-default-male.png
+      avatar:         assets/images/team/avatar-default-male.png
       bio:            "Website-Einrichtung und Betreuung, Englisch-Übersetzung"
       email:          info@praxis-frauenberg.de 
 
     celina-mueller:
       name:           Celina Müller
       site:           https://thomas-hospital.de
-      avatar:         assets/images/avatar-celina-mueller.jpg
+      avatar:         assets/images/team/avatar-celina-mueller.jpg
       bio:            ""
       email:          info@praxis-frauenberg.de 
 
@@ -94,7 +94,6 @@ defaults:
       layout: post
       lang: de
       author: marion-fuhrmann
-      avatar: /assets/images/avatar-default-female.jpg
       permalink: /de/:title/
   - scope:
       path: "_posts/en"
@@ -102,7 +101,6 @@ defaults:
       layout: post
       lang: en
       author: marion-fuhrmann
-      avatar: /assets/images/avatar-default-female.jpg
       permalink: /en/:title/
       
   # all pages

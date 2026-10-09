@@ -53,6 +53,6 @@ Gott segne und schütze Euch!
 
 Mit allen guten Wünschen für eine frohe Adventszeit
 
-![Bild]({{ site.baseurl }}/assets/images/stempel-diocese-d-ebolowa.jpg)
+![Bild]({{ site.baseurl }}/assets/images/posts_images/stempel-diocese-d-ebolowa.jpg)
 
 Philippe Alain MBARGA, Bischof von Ebolowa
