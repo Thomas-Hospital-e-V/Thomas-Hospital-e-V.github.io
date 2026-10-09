@@ -7,4 +7,4 @@ button-link: contact.html
 ---
 #### Help us bring education, healthcare, and hope to those who need it most.
 
-Your donation goes directly to local projects at the St. Thomas Hospital and Children’s Aid initiatives in Cameroon — with zero administrative costs. Every euro makes a difference!
+Your donation goes directly to local projects at the St. Thomas Hospital and Children’s Aid initiatives in Cameroon, with zero administrative costs. Every euro makes a difference!
