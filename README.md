@@ -14,6 +14,12 @@ bundle exec jekyll serve
 ```
 
 
+### Deployment
+
+Pushing to `main` builds and deploys the site via GitHub Actions (`.github/workflows/pages.yml`).
+Requires Settings → Pages → Source: GitHub Actions.
+
+
 ### TODO
 
 - [ ] Spendenform
